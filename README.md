@@ -5,18 +5,18 @@
       _..._
     .'     '.
    /  _   _  \      [ MARKET INTELLIGENCE ENGINE ]
-   | (o) (o) |      Status: 2,240 Records Extracted
+   | (o) (o) |      Status: 200+ Records Extracted
    |    _    |      Engine: Playwright + Llama 3.1
     \  '='  /       Target: Wearable Tech (Amazon UK/US)
      '-----'
 ```
 
 ## 🧱 The Challenge
-E-commerce research at scale (1,000+ records) faces two main hurdles: **Anti-Bot Blocking** and **Data Decay**. Manual research is impossible, and standard scrapers fail when a 4-hour job is interrupted without state management.
+E-commerce research at scale faces two main hurdles: **Anti-Bot Blocking** and **Data Decay**. Manual research is impossible, and standard scrapers fail when a 4-hour job is interrupted without state management.
 
 ## 🚀 The Solution: "Scale & Resiliency" Architecture
 This engine was developed as a high-performance prototype for deep-market analysis:
-1.  **Stateful Checkpointing:** Utilizes a JSON-based state manager to allow 1,000+ record research runs to resume instantly if interrupted.
+1.  **Stateful Checkpointing:** Utilizes a JSON-based state manager to allow research runs to resume instantly if interrupted.
 2.  **AI Metadata Normalization:** Integrated local **Llama 3.1** via Ollama to transform messy product titles into clean "Brand" and "Feature" columns.
 3.  **Dynamic Human Mimicry:** Uses Playwright with randomized scroll-depths and interaction delays to bypass basic bot detection.
 
@@ -39,7 +39,7 @@ def enrich_data_ai(title):
     return response.json()
 ```
 
-## 📊 High-Volume Output (2,000+ Records)
+## 📊 High-Volume Output (200+ Records)
 The engine generates a full competitive landscape with 0% manual entry. Below is a live sample of the first 20 records:
 
 | product_name | manufacturer | price | average_review | feature |
