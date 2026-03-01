@@ -40,13 +40,30 @@ def enrich_data_ai(title):
 ```
 
 ## 📊 High-Volume Output (2,000+ Records)
-The engine produces a full competitive landscape with 0% manual entry:
+The engine generates a full competitive landscape with 0% manual entry. Below is a live sample of the first 20 records:
 
-| Product Name | Brand (AI) | Price | Review Score | Feature Focus |
-| :--- | :--- | :--- | :--- | :--- |
-| **Oura Ring 4** | Oura | £349 | 4.8 | Sleep / Wellness |
-| **Ultrahuman Air** | Ultrahuman | £329 | 4.4 | Metabolism / Recovery |
-| **Circular Ring Slim** | Circular | £259 | 4.1 | Vitals / Vibration |
+| product_name | manufacturer | price | average_review | feature |
+|---|---|---|---|---|
+| Smart Ring Charging Size 9 | Smart Ring | £39 | 4.1 / 5 | Wearable |
+| Oura Ring 4 Sizing Kit | Oura | £5 | 4.4 / 5 | Sizing Tool |
+| Oura Ring 4 Charging Case | Oura | £99 | 4.3 / 5 | Wearable |
+| Oura Ring 4 Charging Case | Oura | £99 | 4.3 / 5 | Wearable |
+| Oura Ring Gen3 Sizing Kit | Oura | £10 | 4.3 / 5 | Wearable |
+| 12 Pack Rings Cover | Oura | £12 | 4.2 / 5 | Wearable |
+| Oura Ring 4 Charger - Size 8 | Oura | £59 | 4.7 / 5 | Wearable |
+| Oura Ring 4 Charging Case | Oura | £99 | 4.3 / 5 | Wearable |
+| Oura Ring 4 Charger - Size 9 | Oura | £59 | 4.7 / 5 | Wearable |
+| Ring Covers for Oura 4 | Oura | £4 | 5.0 / 5 | Wearable |
+| Oura Ring 4 Charger - Size 10 | Oura | £59 | 4.7 / 5 | Charging Dock |
+| Oura Gen3 Heritage Ring | Oura | £192 | 4.2 / 5 | Sleep/Health Wearable |
+| Cover for Oura Ring Gen 4 | Ultrahuman | £11 | 3.8 / 5 | Anti-Scratch TPU |
+| Ring Protector for Oura 4 | Oura | £16 | 2.2 / 5 | Scratch-Resistant |
+| Smart Ring Sizing Kit | Oura | £6 | 4.8 / 5 | Wearable |
+| 4PC Silicone Ring Cover | Oura | £8 | 4.3 / 5 | Wearable |
+| 5PCS Silicone Rings Cover | Oura | £5 | 4.6 / 5 | Wearable |
+| 2 Pcs Ring Protector Gym | Oura | £4 | 4.6 / 5 | Silicone Case |
+| Silicone Ring Protector | Oura | £3 | 4.1 / 5 | Wearable |
+| Smart Ring Charger - Size 8 | Oura | £39 | 4.0 / 5 | Wearable |
 
 ## 📦 Repository Structure
 - `market_intelligence_engine.py`: The core crawler with checkpointing.
