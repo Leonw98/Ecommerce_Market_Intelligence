@@ -71,3 +71,12 @@ The engine generates a full competitive landscape with 0% manual entry. Below is
 
 ---
 *Technical Case Study: High-Volume Data Acquisition & AI Normalization.*
+
+## 📜 License & Technical Disclaimer
+**© 2026 Leon Wilkinson. All Rights Reserved.**
+
+This repository is a **redacted technical case study** designed to demonstrate architectural patterns and engineering strategy. 
+
+*   **Proprietary Logic:** The full, production-grade version of this engine contains proprietary logic for residential proxy rotation, anti-fingerprinting, and advanced data validation which has been removed for security and IP protection.
+*   **Usage:** Unauthorized copying, redistribution, or commercial use of this redacted source code is strictly prohibited. 
+*   **Purpose:** This project serves as a portfolio piece to showcase expertise in Python, Playwright, and LLM-driven data enrichment.
